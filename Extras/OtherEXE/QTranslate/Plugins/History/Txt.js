@@ -1,0 +1,1 @@
+function historyHeader(){return""}function historyItemBegin(a,c,b){return a+"\r\n\r\n"}function historyItem(a,c,b,d,e){return"["+a+" > "+b+" to "+e+"]\r\n"+d+"\r\n\r\n"}function historyItemEnd(){return"================================\r\n\r\n"}function historyFooter(){return""}function historyFileDescription(){return"Text file"}function historyFileExtension(){return"txt"};

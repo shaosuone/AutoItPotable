@@ -1,0 +1,1 @@
+C:\windows\Microsoft.NET\Framework64\v2.0.50727\csc.exe /d:TRACE /target:library /out:"%USERPROFILE%\documents\fiddler2\scripts\ContentBlock.dll" ContentBlock.cs /reference:"%ProgramFiles(X86)%\fiddler2\fiddler.exe"

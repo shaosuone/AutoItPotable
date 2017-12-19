@@ -1,0 +1,339 @@
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              09/05/2017 16:03:17
+OS:                Microsoft Windows NT 10.0.14393.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:00:16.0989429
+Total memory:      16306Mb
+Available memory:  9620Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   找不到字段:“Fiddler.FiddlerApplication.scriptRules”。
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              09/05/2017 16:09:36
+OS:                Microsoft Windows NT 10.0.14393.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:04:35.7978030
+Total memory:      16306Mb
+Available memory:  9457Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   找不到字段:“Fiddler.FiddlerApplication.scriptRules”。
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              12/05/2017 11:50:01
+OS:                Microsoft Windows NT 10.0.14393.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:00:35.8010212
+Total memory:      16306Mb
+Available memory:  11286Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   找不到字段:“Fiddler.FiddlerApplication.scriptRules”。
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              17/07/2017 10:49:23
+OS:                Microsoft Windows NT 10.0.16232.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:00:54.4205911
+Total memory:      16306Mb
+Available memory:  11301Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   Field not found: 'Fiddler.FiddlerApplication.scriptRules'.
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              17/07/2017 10:50:25
+OS:                Microsoft Windows NT 10.0.16232.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:01:56.0581924
+Total memory:      16306Mb
+Available memory:  11296Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   Field not found: 'Fiddler.FiddlerApplication.scriptRules'.
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              17/07/2017 10:51:25
+OS:                Microsoft Windows NT 10.0.16232.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:02:56.9149636
+Total memory:      16306Mb
+Available memory:  11311Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   Field not found: 'Fiddler.FiddlerApplication.scriptRules'.
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              17/07/2017 10:51:38
+OS:                Microsoft Windows NT 10.0.16232.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:00:02.4393291
+Total memory:      16306Mb
+Available memory:  11386Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   Field not found: 'Fiddler.FiddlerApplication.scriptRules'.
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.set_SelectedIndex(Int32 value)
+   在 System.Windows.Forms.TabControl.set_SelectedTab(TabPage value)
+   在 Fiddler.Utilities.(String , TabControl ) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Common\Core\Utilities-NonCore.cs:行号 44
+   在 Fiddler.frmViewer.(Object , EventArgs ) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Viewer.cs:行号 9931
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 Fiddler.frmViewer.WndProc(Message& m) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Viewer.cs:行号 12266
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              17/07/2017 10:52:03
+OS:                Microsoft Windows NT 10.0.16232.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:00:27.5682264
+Total memory:      16306Mb
+Available memory:  11321Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   Field not found: 'Fiddler.FiddlerApplication.scriptRules'.
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              17/07/2017 10:52:32
+OS:                Microsoft Windows NT 10.0.16232.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:00:56.6102806
+Total memory:      16306Mb
+Available memory:  11324Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   Field not found: 'Fiddler.FiddlerApplication.scriptRules'.
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              10/08/2017 13:57:53
+OS:                Microsoft Windows NT 10.0.16257.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:04:43.9893194
+Total memory:      16306Mb
+Available memory:  11463Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   Field not found: 'Fiddler.FiddlerApplication.scriptRules'.
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              10/08/2017 13:59:33
+OS:                Microsoft Windows NT 10.0.16257.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:01:23.9864652
+Total memory:      16306Mb
+Available memory:  11544Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   Field not found: 'Fiddler.FiddlerApplication.scriptRules'.
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.set_SelectedIndex(Int32 value)
+   在 System.Windows.Forms.TabControl.set_SelectedTab(TabPage value)
+   在 Fiddler.Utilities.(String , TabControl ) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Common\Core\Utilities-NonCore.cs:行号 44
+   在 Fiddler.frmViewer.(Object , EventArgs ) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Viewer.cs:行号 9931
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 Fiddler.frmViewer.WndProc(Message& m) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Viewer.cs:行号 12266
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              11/08/2017 13:29:38
+OS:                Microsoft Windows NT 10.0.16257.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:00:02.3971212
+Total memory:      16306Mb
+Available memory:  11576Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   Field not found: 'Fiddler.FiddlerApplication.scriptRules'.
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.set_SelectedIndex(Int32 value)
+   在 System.Windows.Forms.TabControl.set_SelectedTab(TabPage value)
+   在 Fiddler.Utilities.(String , TabControl ) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Common\Core\Utilities-NonCore.cs:行号 44
+   在 Fiddler.frmViewer.(Object , EventArgs ) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Viewer.cs:行号 9931
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 Fiddler.frmViewer.WndProc(Message& m) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Viewer.cs:行号 12266
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+Application:       Fiddler
+Version:           4.6.20171.14978
+Date:              11/08/2017 13:52:59
+OS:                Microsoft Windows NT 10.0.16257.0
+Culture:           zh-CN
+Resolution:        {Width=1400, Height=1050}
+App up time:       00:00:02.1594648
+Total memory:      16306Mb
+Available memory:  11797Mb
+
+Exception classes:   
+   System.MissingFieldException
+Exception messages: 
+   Field not found: 'Fiddler.FiddlerApplication.scriptRules'.
+Stack Traces:
+   在 RulesTab2.RulesTab2.EnsureReady()
+   在 RulesTab2.RulesTab2.tabsViews_SelectedIndexChanged(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.TabControl.OnSelectedIndexChanged(EventArgs e)
+   在 System.Windows.Forms.TabControl.WmSelChange()
+   在 System.Windows.Forms.TabControl.set_SelectedIndex(Int32 value)
+   在 System.Windows.Forms.TabControl.set_SelectedTab(TabPage value)
+   在 Fiddler.Utilities.(String , TabControl ) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Common\Core\Utilities-NonCore.cs:行号 44
+   在 Fiddler.frmViewer.(Object , EventArgs ) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Viewer.cs:行号 9931
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 Fiddler.frmViewer.WndProc(Message& m) 位置 C:\JenkinsHome\jobs\FiddlerReleaseBuild\workspace\Fiddler2\Viewer.cs:行号 12266
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

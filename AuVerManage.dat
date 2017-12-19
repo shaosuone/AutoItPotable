@@ -1,0 +1,13 @@
+[UserTemplate64]
+0penX64=运行脚本(X64)|D:\AutoItV3\AutoIt3_x64.exe "%1" %*
+0penX86=运行脚本|D:\AutoItV3\AutoIt3.exe "%1" %*
+CGUICompile=编译脚本(带选项)|"D:\AutoItV3\SciTE\WrapperTool.exe" /Opt "%l"
+Compile=编译脚本(带进度)|"D:\AutoItV3\SciTE\WrapperTool.exe" /NoOpt  "%l"
+open=编辑脚本(SCITE)|"D:\AutoItV3\SciTE\SciteWithTB.exe" "%1"
+[UserTemplate640]
+DefKey=0penX64
+[UserTemplate641]
+InstallDir=D:\AutoItV3
+FileName=D:\AutoItV3\SciTE\文件模版A.au3
+DefaultIcon=D:\AutoItV3\Aut2Exe\Icons\filetype1.ico
+Include=D:\AutoItV3\UserInclude

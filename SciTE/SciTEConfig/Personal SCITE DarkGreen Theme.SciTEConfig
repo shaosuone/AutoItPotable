@@ -1,0 +1,50 @@
+##############################################################
+####
+####  虫子樱桃自用SCiTE颜色配置[深青]                     ####
+####
+##############################################################
+indent.size=4
+indent.size.*.au3=4
+tabsize=4
+style.au3.32=style.*.32=$(font.base),back:#001C1C
+caret.line.back=#000000
+selection.fore=#FFFFFF
+selection.alpha=50
+selection.back=#FF8000
+style.au3.34=fore:#F75009,bold,back:#001C1C
+style.au3.35=fore:#008000,italics,back:#001C1C
+style.au3.0=fore:#8000FF,back:#001C1C
+style.au3.1=fore:#008000,italics,back:#001C1C
+style.au3.2=fore:#008000,italics,back:#001C1C
+style.au3.3=fore:#E4BB16,bold,back:#001C1C
+style.au3.4=fore:#EE7C31,bold,back:#001C1C
+style.au3.5=fore:#F75009,bold,back:#001C1C
+style.au3.6=fore:#FFFF0F,bold,back:#001C1C
+style.au3.7=fore:#2492FF,back:#001C1C
+style.au3.8=fore:#4F7499,bold,back:#001C1C
+style.au3.9=fore:#8D6CD0,bold,back:#001C1C
+style.au3.10=fore:#FF8306,bold,back:#001C1C
+style.au3.11=fore:#808000,back:#001C1C
+style.au3.12=fore:#DC143C,bold,back:#001C1C
+style.au3.13=fore:#F20000,back:#001C1C
+style.au3.14=fore:#993399,bold,back:#001C1C
+style.au3.15=fore:#A7A754,bold,back:#001C1C
+highlight.current.word=1
+style.errorlist.32=$(font.small),back:#FFFFFF
+style.errorlist.0=fore:#000000
+caret.fore=#FFFFFF
+caret.width=1
+character.set=134
+code.page=936
+font.base=font:YaHei Consolas Hybrid,size:12,$(font.override)
+font.monospace=font:YaHei Consolas Hybrid,size:12
+proper.case=0
+error.inline=1
+use.tabs=1
+# The default values will be used only if an extention value is not defined.
+caret.default.line.back=#FFFED8
+caret.default.fore=#000000
+
+# Set Caret Colors per extention. You can add other extentions as well
+caret.au3.fore=#FFFFFF
+caret.au3.line.back=#111111

@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FiddlerCoreRequestToCode</name>
+    </assembly>
+    <members>
+        <member name="F:BaseLanguage.TABS">
+            <summary>
+            Indentation level
+            </summary>
+        </member>
+        <member name="F:BaseLanguage.PREF_SEPARATOR">
+            <summary>
+            Separator used between joined preference values
+            </summary>
+        </member>
+        <member name="T:CodeGenerator">
+            <summary>
+            Uses a language to generate code.
+            </summary>
+        </member>
+        <member name="T:ICodeGenerator">
+            <summary>
+            Uses a language to generate code.
+            </summary>
+        </member>
+        <member name="M:ICodeGenerator.TryGenerateCode(Fiddler.Session[],System.String@)">
+            <summary>
+            Tries to generate code for the sessions based on the current ICodeLanguage.
+            </summary>
+            <param name="sessions">The sessions to write code for.</param>
+            <param name="code">If the function returns true, contains the generated code. Otherwise, is empty.</param>
+            <returns>True if code generation was successfull. False otherwise.</returns>
+        </member>
+        <member name="M:ICodeGenerator.RunCode(System.String)">
+            <summary>
+            Tries to run code based on teh current ICodeLanguage
+            </summary>
+            <param name="code">The path pointing to a file containing code.</param>
+            <exception cref="T:CouldNotCompileException">The current ICodeLanguage is a compiled language and the code could not be compiled.</exception>
+        </member>
+        <member name="P:ICodeGenerator.Language">
+            <summary>
+            Gets or sets the current language the ICodeGenerator uses.
+            </summary>
+            <exception cref="T:System.ArgumentNullException">Lanugage is null.</exception>
+        </member>
+        <member name="P:ICodeGenerator.ShowComments">
+            <summary>
+            Gets or sets whether comments are generated.
+            </summary>
+        </member>
+        <member name="P:ICodeGenerator.ShowUsage">
+            <summary>
+            Gets or sets whether a function is generated that calls all the other generated functions.
+            </summary>
+        </member>
+        <member name="P:ICodeGenerator.ReadResponse">
+            <summary>
+            Gets or sets whether code is generated to read the response as text.
+            </summary>
+        </member>
+        <member name="M:CodeGenerator.TryGenerateCode(Fiddler.Session[],System.String@)">
+            <summary>
+            Tries to generate code for the sessions based on the current ICodeLanguage.
+            </summary>
+            <param name="sessions">The sessions to write code for.</param>
+            <param name="code">If the function returns true, contains the generated code. Otherwise, is empty.</param>
+            <returns>True if code generation was successfull. False otherwise.</returns>
+        </member>
+        <member name="M:CodeGenerator.RunCode(System.String)">
+            <summary>
+            Tries to run code based on the current ICodeLanguage
+            </summary>
+            <param name="code">The path pointing to a file containing code.</param>
+            <exception cref="T:CouldNotCompileException">The current ICodeLanguage is a compiled language and the code could not be compiled.</exception>
+        </member>
+        <member name="P:CodeGenerator.Language">
+            <summary>
+            Gets or sets the current language the CodeGenerator uses.
+            </summary>
+            <exception cref="T:System.ArgumentNullException">Lanugage is null.</exception>
+        </member>
+        <member name="P:CodeGenerator.ShowComments">
+            <summary>
+            Gets or sets whether comments are generated.
+            </summary>
+        </member>
+        <member name="P:CodeGenerator.ShowUsage">
+            <summary>
+            Gets or sets whether a function is generated that calls all the other generated functions.
+            </summary>
+        </member>
+        <member name="P:CodeGenerator.ReadResponse">
+            <summary>
+            Gets or sets whether code is generated to read the response as text.
+            </summary>
+        </member>
+        <member name="T:CSharpLanguage">
+            <summary>
+            Implements code generation for C#.NET.
+            </summary>
+        </member>
+        <member name="M:DotNetLanguage.TryGenerateCode(Fiddler.Session[],System.Boolean,System.Boolean,System.Boolean,System.String@)">
+            <summary>
+            Tries to generate code for the sessions based on the current ICodeLanguage.
+            </summary>
+            <param name="sessions">The sessions to write code for.</param>
+            <param name="showComments">True to generate code comments. False otherwise.</param>
+            <param name="showUsage">True to generate usage code. False otherwise.</param>
+            <param name="readResponse">True to generate code to read the response. False otherwise.</param>
+            <param name="code">If the function returns true, contains the generated code. Otherwise, is empty.</param>
+            <returns>True if code generation was successfull. False otherwise.</returns>
+        </member>
+        <member name="M:DotNetLanguage.GetStandardSetHeaderCode(System.String,System.String,System.String)">
+            <summary>
+            Returns standard header setting code for the current ILanguage. Only use when using the HttpRequestHeader enumerations for the 'name'
+            </summary>
+            <param name="name">An HttpRequestHeader enumeration as a string.</param>
+            <param name="value">The value to set the header to.</param>
+            <param name="semi">The semi-colon character for the current ILanguage.</param>
+        </member>
+        <member name="T:ICodeLanguage">
+            <summary>
+            Defines what any programming language needs to provide to generate code.
+            </summary>
+        </member>
+        <member name="M:ICodeLanguage.TryGenerateCode(Fiddler.Session[],System.Boolean,System.Boolean,System.Boolean,System.String@)">
+            <summary>
+            Tries to generate code for the sessions based on the current ICodeLanguage.
+            </summary>
+            <param name="sessions">The sessions to write code for.</param>
+            <param name="showComments">True to generate code comments. False otherwise.</param>
+            <param name="showUsage">True to generate usage code. False otherwise.</param>
+            <param name="readResponse">True to generate code to read the response as text.</param>
+            <param name="code">If the function returns true, contains the generated code. Otherwise, is empty.</param>
+            <returns>True if code generation was successfull. False otherwise.</returns>
+        </member>
+        <member name="M:ICodeLanguage.WrapCode(System.String)">
+            <summary>
+            Wraps code for interpretation / compilation.
+            </summary>
+            <param name="code">The code snippet.</param>
+        </member>
+        <member name="M:PinvokeUtilities.GetExePathByExtension(System.String)">
+            <summary>
+            Returns full path to exe that can open the specified extension.
+            </summary>
+            <param name="extension">File extension, including dot.</param>
+        </member>
+        <member name="T:PythonLanguage">
+            <summary>
+            Implements code generation for Python.
+            </summary>
+        </member>
+        <member name="T:RunInformation">
+            <summary>
+            Contains immutable information about language compilation/execution
+            </summary>
+        </member>
+        <member name="M:RunInformation.#ctor(System.String[],System.String[],System.String)">
+            <summary>
+            Creates a new RunInformation instance.
+            </summary>
+        </member>
+        <member name="T:SessionsProperties">
+            <summary>
+            Stores properties about all the sessions being codified as a unit.
+            </summary>
+        </member>
+        <member name="F:Utility.TempFiles">
+            <summary>
+            Any files in this collection will try to be deleted when this app exits.
+            </summary>
+        </member>
+        <member name="F:Utility.TempDirectories">
+            <summary>
+            Any directories in this collection will try to be deleted when this app exits.
+            </summary>
+        </member>
+        <member name="M:Utility.ClearTempFilesAndDirectories">
+            <summary>
+            Deletes the files and directories listed in TempFiles and TempDirectories.
+            </summary>
+        </member>
+        <member name="M:Utility.Times(System.Int32,System.String)">
+            <summary>
+            Repeats a string a number of times.
+            </summary>
+            <param name="times">How many times to repeat the string.</param>
+            <param name="s">The string to repeat.</param>
+        </member>
+        <member name="M:Utility.MakeNameSafe(System.String)">
+            <summary>
+            Replaces non-alpha numeric characters with an underscore ('_').
+            </summary>
+            <param name="name">The name to replace characters in.</param>
+        </member>
+        <member name="M:Utility.CreateTempDirectory">
+            <summary>
+            Creates a new temporary directory and returns its path.  Not thread safe.
+            </summary>
+        </member>
+        <member name="M:Utility.SessionsAreHTTP(System.Collections.Generic.IEnumerable{Fiddler.Session})">
+            <summary>
+            Return false if any session is not HTTP or HTTPS.  Otherwise true.
+            </summary>
+            <param name="sessions">The list of Sessions to check.</param>
+        </member>
+        <member name="T:VbCodeLanguage">
+            <summary>
+            Implements code generation for VB.NET.
+            </summary>
+        </member>
+        <member name="T:MultipartHelper.HttpMultipartParser">
+            <summary>
+            Parses a multipart HTTP request body for files and form parameters.
+            </summary>
+        </member>
+        <member name="P:MultipartHelper.HttpMultipartParser.Success">
+            <summary>
+            True if parsing succeeded, false otherwise.
+            </summary>
+        </member>
+        <member name="P:MultipartHelper.HttpMultipartParser.Parameters">
+            <summary>
+            The in-order parameters of the multipart data.
+            </summary>
+        </member>
+        <member name="P:MultipartHelper.HttpMultipartParser.Files">
+            <summary>
+            The in-order files of the multipart data.
+            </summary>
+        </member>
+        <member name="P:MultipartHelper.HttpMultipartParser.Sections">
+            <summary>
+            The in-order contents of the multipart data.
+            </summary>
+        </member>
+    </members>
+</doc>

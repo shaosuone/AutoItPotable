@@ -1,0 +1,2 @@
+#ce #comments-end #comments-start #cs #include #include-once 
+	#noautoit3execute #notrayicon #onautoitstartregister #requireadmin 
